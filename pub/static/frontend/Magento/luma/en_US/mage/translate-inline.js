@@ -1,0 +1,1 @@
+/misc/apps/new-site/lib/web/mage/translate-inline.js
