@@ -272,3 +272,17 @@
 [2018-12-02 19:30:46] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2018-12-02 19:30:46] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2018-12-02 19:30:46] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2018-12-02 19:43:24] main.INFO: Theme layout update file '/misc/apps/new-site/app/code/Viktoria/Knockout/view/frontend/layout/knockout_test_index.xml' is not valid.
+XML declaration allowed only at the start of the document
+ Line: 8 [] []
+[2018-12-02 19:43:24] main.ERROR: Theme layout update file '/misc/apps/new-site/app/code/Viktoria/Knockout/view/frontend/layout/knockout_test_index.xml' is not valid.
+XML declaration allowed only at the start of the document
+ Line: 8 [] []
+[2018-12-02 19:43:56] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2018-12-02 19:43:56] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2018-12-02 19:43:56] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2018-12-02 19:43:57] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/Magenest_KnockoutJs/template/test.html' [] []
+[2018-12-02 19:43:57] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/Magenest_KnockoutJs/template/test.html' [] []
+[2018-12-02 19:48:58] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2018-12-02 19:48:58] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2018-12-02 19:48:58] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
