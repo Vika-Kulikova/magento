@@ -269,3 +269,6 @@
 [2018-11-25 18:21:19] main.INFO: Add of item with id Temando_Shipping::packaging was processed [] []
 [2018-11-25 18:21:19] main.INFO: Add of item with id Temando_Shipping::dispatches was processed [] []
 [2018-11-25 18:21:19] main.INFO: Add of item with id Temando_Shipping::batches was processed [] []
+[2018-12-02 19:30:46] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2018-12-02 19:30:46] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2018-12-02 19:30:46] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []

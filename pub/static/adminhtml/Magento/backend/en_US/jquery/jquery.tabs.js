@@ -1,1 +1,0 @@
-/misc/apps/new-site/lib/web/jquery/jquery.tabs.js

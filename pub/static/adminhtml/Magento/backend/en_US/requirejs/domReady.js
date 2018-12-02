@@ -1,1 +1,0 @@
-/misc/apps/new-site/lib/web/requirejs/domReady.js

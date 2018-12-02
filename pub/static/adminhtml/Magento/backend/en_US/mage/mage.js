@@ -1,1 +1,0 @@
-/misc/apps/new-site/lib/web/mage/mage.js

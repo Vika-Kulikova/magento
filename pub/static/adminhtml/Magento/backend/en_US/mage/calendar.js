@@ -1,1 +1,0 @@
-/misc/apps/new-site/lib/web/mage/calendar.js
