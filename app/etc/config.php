@@ -146,6 +146,7 @@ return [
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1,
         'Viktoria_Customer' => 1,
+        'Viktoria_CustomerOrder' => 1,
         'Viktoria_GenerateCustomer' => 0,
         'Viktoria_Knockout' => 1
     ]

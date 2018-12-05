@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<div data-bind="text: greeting"></div>-->
+<!--<input type="text" data-bind="textInput: inputText, visible: true">-->
+<input type="text" data-bind="textInput: inputText, visible: isVisible">
+<p data-bind="text: inputText"></p>
+
+<!--<button> data-bind="event: { myCustomeEvent: function () {}}"</button>-->
+<button data-bind="click: function() {alert (1)}"> click alert</button>
+<button data-bind="click: function(viewModel) {viewModel.isVisible(false)}"> click me</button>
+
+<!--function(viewModel) передаем контекст-->
+<button data-bind="click: function(viewModel) {console.log(this);}"> click me</button>
+<button data-bind="click: function() {this.isVisible(false)}"> click this</button>
+
+
+<!--В clickHandler не использовать () !!!! , передаем только ссылку на функцию, инача фун выполнится только один раз-->
+<button data-bind="click: clickHandlerThis"> click clickHandler this</button>
+<button data-bind="click: clickHandler"> click clickHandler this=viewModel</button>
+
+<!--&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+</br>
+</br>
+<input type="text" data-bind="textInput: firstName">
+<input type="text" data-bind="textInput: lastName">
+<p data-bind="text: firstName() + ' ' + lastName()"></p>
+
+<p data-bind="text: fullName()"></p>
+
+<p data-bind="text: fullNameComputed()"></p>
+
+<script type='text/javascript' src='https://knockoutjs.com/downloads/knockout-3.4.2.js'></script>
+<script>
+    var viewModel = {
+        // greeting: ko.observable("Hello World!")
+        inputText: ko.observable('Hello'),
+        // isVisible: ko.observable(false)
+        isVisible: ko.observable(true),
+
+        clickHandlerThis: function () {
+            console.log(this)
+        },
+
+        clickHandler: function (viewModel) {
+            console.log(viewModel)
+        },
+
+        firstName: ko.observable(''),
+        lastName: ko.observable(''),
+        fullName: function () {
+            return this.firstName() + ' ' + this.lastName();
+        },
+
+        // this = window
+        // fullNameComputed= ko.computed(function () {
+        //     console.log(this);
+        //     return this.firstName() + ' ' + this.lastName();
+        // })
+    };
+
+
+    viewModel.fullNameComputed= ko.computed(function () {
+            console.log(this);
+            return this.firstName() + ' ' + this.lastName();
+        }, viewModel);
+
+
+    ko.applyBindings(viewModel);
+
+    setTimeout(function () {
+        viewModel.isVisible(false) //input пропадет через 2с
+    }, 2000)
+
+    // viewModel.greeting = ("123");
+    // console.log(viewModel.inputText());
+    // viewModel.inputText.subscribe(function (newValue) {
+    //     console.log(newValue);
+    // }) // console.log(viewModel.inputText());
+    // viewModel.inputText.subscribe(function (newValue) {
+    //     console.log(newValue);
+    // })
+</script>
+</body>
+</html>

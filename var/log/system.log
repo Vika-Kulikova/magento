@@ -286,3 +286,29 @@ XML declaration allowed only at the start of the document
 [2018-12-02 19:48:58] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2018-12-02 19:48:58] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
 [2018-12-02 19:48:58] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2018-12-05 18:04:48] main.ERROR: Invalid XML in file /misc/apps/new-site/app/code/Viktoria/CustomerOrder/etc/frontend/routes.xml:
+Element 'route', attribute 'id': [facet 'pattern'] The value 'customer-order' is not accepted by the pattern '[A-Za-z0-9_]{3,}'.
+Line: 4
+
+Element 'route', attribute 'id': 'customer-order' is not a valid value of the atomic type 'routeIdType'.
+Line: 4
+
+Element 'route', attribute 'id': Warning: No precomputed value available, the value was either invalid or something strange happend.
+Line: 4
+ [] []
+[2018-12-05 18:04:49] main.ERROR: Invalid XML in file /misc/apps/new-site/app/code/Viktoria/CustomerOrder/etc/frontend/routes.xml:
+Element 'route', attribute 'id': [facet 'pattern'] The value 'customer-order' is not accepted by the pattern '[A-Za-z0-9_]{3,}'.
+Line: 4
+
+Element 'route', attribute 'id': 'customer-order' is not a valid value of the atomic type 'routeIdType'.
+Line: 4
+
+Element 'route', attribute 'id': Warning: No precomputed value available, the value was either invalid or something strange happend.
+Line: 4
+ [] []
+[2018-12-05 18:23:44] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2018-12-05 18:23:44] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2018-12-05 18:23:44] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2018-12-05 18:30:01] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2018-12-05 18:30:01] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2018-12-05 18:30:01] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
