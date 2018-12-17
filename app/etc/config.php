@@ -148,6 +148,9 @@ return [
         'Viktoria_Customer' => 1,
         'Viktoria_CustomerOrder' => 1,
         'Viktoria_GenerateCustomer' => 0,
-        'Viktoria_Knockout' => 1
+        'Viktoria_Knockout' => 1,
+        'Viktoria_KnockoutCustomer' => 1,
+        'Viktoria_Plugin' => 1,
+        'Viktoria_Widget' => 1
     ]
 ];
